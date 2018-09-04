@@ -1,0 +1,42 @@
+{
+  "name": "weekly-meeeting",
+  "version": "1.0.0",
+  "description": "Weekly Meeting",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --config webpack.dev.config.js  --port 5555",
+    "build:DEV": "webpack  --env.NODE_ENV=dev --mode production --config webpack.dev.config.js",
+    "build:UAT": "webpack --env.NODE_ENV=uat --mode production --config webpack.uat.config.js",
+    "build:PROD": "webpack --env.NODE_ENV=prod --mode production --config webpack.prod.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor Manuel Rodriguez",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "file-loader": "^2.0.0",
+    "gsap": "^2.0.2",
+    "jquery": "1.11.2",
+    "jquery-ui": "1.12.x",
+    "node-sass": "^4.9.3",
+    "scrollmagic": "^2.0.5",
+    "webpack-merge": "^4.1.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "optimize-css-assets-webpack-plugin": "^4.0.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.10.0",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  }
+}

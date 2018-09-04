@@ -1,0 +1,1009 @@
+/* Open Sans v15 */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-Regular.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-Regular.woff) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  /* cyrillic-ext */
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-Regular.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-Regular.woff) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  /* cyrillic */
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-Regular.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-Regular.woff) format('woff');
+  unicode-range: U+1F00-1FFF;
+  /* greek-ext */
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-Regular.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-Regular.woff) format('woff');
+  unicode-range: U+0370-03FF;
+  /* greek */
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-Regular.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-Regular.woff) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+  /* vietnamese */
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-Regular.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-Regular.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  /* latin-ext */
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-Regular.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-Regular.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  /* latin */
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-SemiBold.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-SemiBold.woff) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  /* cyrillic-ext */
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-SemiBold.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-SemiBold.woff) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  /* cyrillic */
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-SemiBold.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-SemiBold.woff) format('woff');
+  unicode-range: U+1F00-1FFF;
+  /* greek-ext */
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-SemiBold.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-SemiBold.woff) format('woff');
+  unicode-range: U+0370-03FF;
+  /* greek */
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-SemiBold.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-SemiBold.woff) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+  /* vietnamese */
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-SemiBold.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-SemiBold.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  /* latin-ext */
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-SemiBold.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSans-SemiBold.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  /* latin */
+}
+
+/* Open Sans v12 */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Light.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Light.woff) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  /* cyrillic-ext */
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Light.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Light.woff) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  /* cyrillic */
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Light.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Light.woff) format('woff');
+  unicode-range: U+1F00-1FFF;
+  /* greek-ext */
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Light.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Light.woff) format('woff');
+  unicode-range: U+0370-03FF;
+  /* greek */
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Light.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Light.woff) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+  /* vietnamese */
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Light.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Light.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  /* latin-ext */
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Light.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Light.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  /* latin */
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Condensed Bold'), local('OpenSansCondensed-Bold'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Bold.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Bold.woff) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  /* cyrillic-ext */
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Condensed Bold'), local('OpenSansCondensed-Bold'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Bold.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Bold.woff) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  /* cyrillic */
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Condensed Bold'), local('OpenSansCondensed-Bold'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Bold.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Bold.woff) format('woff');
+  unicode-range: U+1F00-1FFF;
+  /* greek-ext */
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Condensed Bold'), local('OpenSansCondensed-Bold'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Bold.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Bold.woff) format('woff');
+  unicode-range: U+0370-03FF;
+  /* greek */
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Condensed Bold'), local('OpenSansCondensed-Bold'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Bold.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Bold.woff) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+  /* vietnamese */
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Condensed Bold'), local('OpenSansCondensed-Bold'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Bold.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Bold.woff) format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  /* latin-ext */
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Condensed Bold'), local('OpenSansCondensed-Bold'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Bold.woff2) format('woff2'), url(//www.rockwellautomation.com/resources/fonts/rockwellautomation/OpenSansCondensed-Bold.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  /* latin */
+}
+
+/* FontAwesome */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('//www.rockwellautomation.com/resources/fonts/rockwellautomation/fontawesome-webfont.eot?v=4.7.0');
+  src: url('//www.rockwellautomation.com/resources/fonts/rockwellautomation/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('//www.rockwellautomation.com/resources/fonts/rockwellautomation/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('//www.rockwellautomation.com/resources/fonts/rockwellautomation/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('//www.rockwellautomation.com/resources/fonts/rockwellautomation/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('//www.rockwellautomation.com/resources/fonts/rockwellautomation/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal
+}
+
+
+/* old font*/
+@font-face {
+  font-family: 'rockwell-icons';
+  src:  url('assets/fonts/rockwell-icons.eot?hil6kr');
+  src:  url('assets/fonts/rockwell-icons.eot?hil6kr#iefix') format('embedded-opentype'),
+  url('assets/fonts/rockwell-icons.ttf?hil6kr') format('truetype'),
+  url('assets/fonts/rockwell-icons.woff?hil6kr') format('woff'),
+  url('assets/fonts/rockwell-icons.svg?hil6kr#rockwell-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'rockwell-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ic_caution:before {
+  content: "\e920";
+}
+.icon-ic_gear_error:before {
+  content: "\e91e";
+}
+.icon-ic_gear_success:before {
+  content: "\e91f";
+}
+.icon-ic_repair:before {
+  content: "\e91d";
+}
+.icon-ic_dropdown:before {
+  content: "\e90d";
+}
+.icon-ic_email:before {
+  content: "\e914";
+}
+.icon-ic_phone:before {
+  content: "\e91c";
+}
+.icon-ic_add_search:before {
+  content: "\e91a";
+}
+.icon-ic_new_line_item:before {
+  content: "\e91b";
+}
+.icon-ic_home:before {
+  content: "\e919";
+}
+.icon-ic_subtract:before {
+  content: "\e918";
+}
+.icon-ic_delete:before {
+  content: "\e917";
+}
+.icon-ic_add:before {
+  content: "\e916";
+}
+.icon-ic_download:before {
+  content: "\e913";
+}
+.icon-ic_import:before {
+  content: "\e915";
+}
+.icon-ic_gear:before {
+  content: "\e912";
+}
+.icon-ic_cancel:before {
+  content: "\e911";
+}
+.icon-ic_edit:before {
+  content: "\e90e";
+}
+.icon-ic_remove:before {
+  content: "\e90f";
+}
+.icon-ic_tick:before {
+  content: "\e910";
+}
+.icon-ic_social_facebook:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-ic_social_googleplus:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-ic_social_linkedin:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-ic_social_twitter:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-ic_social_youtube:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-ic_map:before {
+  content: "\e90b";
+}
+.icon-ic_question_mark:before {
+  content: "\e90c";
+}
+.icon-ic_chevron_down:before {
+  content: "\e900";
+}
+.icon-ic_chevron_left:before {
+  content: "\e901";
+}
+.icon-ic_chevron_right:before {
+  content: "\e902";
+}
+.icon-ic_chevron_up:before {
+  content: "\e903";
+}
+.icon-ic_menu:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-ic_search:before {
+  content: "\e905";
+  color: #fff;
+}
+
+/* new font*/
+@charset "UTF-8";
+
+@font-face {
+  font-family: "svgrockwell";
+  src:url("assets/fonts/svgrockwell.eot");
+  src:url("assets/fonts/svgrockwell.eot?#iefix") format("embedded-opentype"),
+  url("assets/fonts/svgrockwell.woff") format("woff"),
+  url("assets/fonts/svgrockwell.ttf") format("truetype"),
+  url("assets/fonts/svgrockwell.svg#svgrockwell") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "svgrockwell" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="sr-"]:before,
+[class*=" sr-"]:before {
+  font-family: "svgrockwell" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sr-logo-ab:before {
+  content: "\a001";
+}
+.sr-logo-ra:before {
+  content: "\a000";
+}
+.sr-logo-rs:before {
+  content: "\a002";
+}
+.sr-azure:before {
+  content: "\b000";
+}
+.sr-twitter:before {
+  content: "\b001";
+}
+.sr-vk:before {
+  content: "\b002";
+}
+.sr-facebook:before {
+  content: "\b003";
+}
+.sr-flikr:before {
+  content: "\b004";
+}
+.sr-wechat:before {
+  content: "\b005";
+}
+.sr-weibo:before {
+  content: "\b006";
+}
+.sr-google:before {
+  content: "\b007";
+}
+.sr-google-plus:before {
+  content: "\b008";
+}
+.sr-xing:before {
+  content: "\b009";
+}
+.sr-yahoo:before {
+  content: "\b010";
+}
+.sr-linkedin:before {
+  content: "\b011";
+}
+.sr-youtube:before {
+  content: "\b012";
+}
+.sr-microsoft:before {
+  content: "\b013";
+}
+.sr-microsoft-powerbi:before {
+  content: "\b014";
+}
+.sr-orkut:before {
+  content: "\b015";
+}
+.sr-qzone:before {
+  content: "\b016";
+}
+.sr-renren:before {
+  content: "\b017";
+}
+.sr-slideshare:before {
+  content: "\b018";
+}
+.sr-tencent-weibo:before {
+  content: "\b019";
+}
+.sr-blog:before {
+  content: "\c000";
+}
+.sr-case-study:before {
+  content: "\c001";
+}
+.sr-event:before {
+  content: "\c002";
+}
+.sr-industry:before {
+  content: "\c003";
+}
+.sr-literature-library:before {
+  content: "\c004";
+}
+.sr-magazine:before {
+  content: "\c005";
+}
+.sr-products:before {
+  content: "\c006";
+}
+.sr-support:before {
+  content: "\c007";
+}
+.sr-pdf:before {
+  content: "\d000";
+}
+.sr-image:before {
+  content: "\d001";
+}
+.sr-audio:before {
+  content: "\d002";
+}
+.sr-training:before {
+  content: "\c008";
+}
+.sr-knowledgebase:before {
+  content: "\c009";
+}
+.sr-code:before {
+  content: "\d003";
+}
+.sr-search:before {
+  content: "\c010";
+}
+.sr-apps:before {
+  content: "\c011";
+}
+.sr-bill-of-materials:before {
+  content: "\c012";
+}
+.sr-contacts:before {
+  content: "\c013";
+}
+.sr-locator:before {
+  content: "\c014";
+}
+.sr-locator-filled:before {
+  content: "\c015";
+}
+.sr-recent-activity:before {
+  content: "\c016";
+}
+.sr-user-filled:before {
+  content: "\e000";
+}
+.sr-share:before {
+  content: "\e001";
+}
+.sr-settings-filled:before {
+  content: "\e002";
+}
+.sr-settings:before {
+  content: "\e003";
+}
+.sr-country-filled:before {
+  content: "\e004";
+}
+.sr-country:before {
+  content: "\e005";
+}
+.sr-email:before {
+  content: "\e006";
+}
+.sr-feedback:before {
+  content: "\e007";
+}
+.sr-help:before {
+  content: "\e008";
+}
+.sr-help-circle-filled:before {
+  content: "\e010";
+}
+.sr-language:before {
+  content: "\e011";
+}
+.sr-language-filled:before {
+  content: "\e012";
+}
+.sr-logout:before {
+  content: "\e013";
+}
+.sr-map-pin:before {
+  content: "\e014";
+}
+.sr-print:before {
+  content: "\e015";
+}
+.sr-save:before {
+  content: "\e016";
+}
+.sr-saved:before {
+  content: "\e017";
+}
+.sr-chevron-double-left:before {
+  content: "\e019";
+}
+.sr-chevron-double-right:before {
+  content: "\e020";
+}
+.sr-chevron-double-up:before {
+  content: "\e021";
+}
+.sr-chevron-down:before {
+  content: "\e022";
+}
+.sr-chevron-left:before {
+  content: "\e023";
+}
+.sr-chevron-right:before {
+  content: "\e024";
+}
+.sr-chevron-up:before {
+  content: "\e025";
+}
+.sr-page:before {
+  content: "\d004";
+}
+.sr-video:before {
+  content: "\d005";
+}
+.sr-video-filled:before {
+  content: "\d006";
+}
+.sr-user:before {
+  content: "\e026";
+}
+.sr-chevron-double-down:before {
+  content: "\e018";
+}
+.sr-batch:before {
+  content: "\c017";
+}
+.sr-asset-management:before {
+  content: "\c018";
+}
+.sr-actionable-analytics:before {
+  content: "\c019";
+}
+.sr-info-driven-systems-solutions:before {
+  content: "\c020";
+}
+.sr-information-solutions:before {
+  content: "\c021";
+}
+.sr-collaborative-execution:before {
+  content: "\c022";
+}
+.sr-electrical-safety:before {
+  content: "\c023";
+}
+.sr-essential-components:before {
+  content: "\c024";
+}
+.sr-feed:before {
+  content: "\c025";
+}
+.sr-motor-control:before {
+  content: "\c026";
+}
+.sr-modernization:before {
+  content: "\c027";
+}
+.sr-machine-safety:before {
+  content: "\c028";
+}
+.sr-mac:before {
+  content: "\c029";
+}
+.sr-safety:before {
+  content: "\c030";
+}
+.sr-risk-management:before {
+  content: "\c031";
+}
+.sr-project-management:before {
+  content: "\c032";
+}
+.sr-products-solutions:before {
+  content: "\c033";
+}
+.sr-productivity:before {
+  content: "\c034";
+}
+.sr-process-safety:before {
+  content: "\c035";
+}
+.sr-optimization:before {
+  content: "\c036";
+}
+.sr-training-support:before {
+  content: "\c037";
+}
+.sr-systems:before {
+  content: "\c038";
+}
+.sr-operational-intelligence:before {
+  content: "\c039";
+}
+.sr-integrated-architecture:before {
+  content: "\c040";
+}
+.sr-network-services:before {
+  content: "\c041";
+}
+.sr-security-services:before {
+  content: "\c042";
+}
+.sr-network-products:before {
+  content: "\c043";
+}
+.sr-network-architecture:before {
+  content: "\c044";
+}
+.sr-safety-management:before {
+  content: "\c045";
+}
+.sr-failed:before {
+  content: "\e027";
+}
+.sr-failed-filled:before {
+  content: "\e028";
+}
+.sr-good:before {
+  content: "\e029";
+}
+.sr-good-filled:before {
+  content: "\e030";
+}
+.sr-solutions:before {
+  content: "\c046";
+}
+.sr-services:before {
+  content: "\c047";
+}
+.sr-download:before {
+  content: "\e031";
+}
+.sr-copy:before {
+  content: "\e032";
+}
+.sr-delete:before {
+  content: "\e033";
+}
+.sr-folder:before {
+  content: "\e034";
+}
+.sr-flag:before {
+  content: "\e035";
+}
+.sr-export:before {
+  content: "\e036";
+}
+.sr-cancel:before {
+  content: "\e037";
+}
+.sr-history:before {
+  content: "\e038";
+}
+.sr-home:before {
+  content: "\e039";
+}
+.sr-import:before {
+  content: "\e040";
+}
+.sr-maximize:before {
+  content: "\e041";
+}
+.sr-merge:before {
+  content: "\e042";
+}
+.sr-minimize:before {
+  content: "\e043";
+}
+.sr-move:before {
+  content: "\e044";
+}
+.sr-zoom-in:before {
+  content: "\e045";
+}
+.sr-upload:before {
+  content: "\e046";
+}
+.sr-unlock:before {
+  content: "\e047";
+}
+.sr-tagged:before {
+  content: "\e048";
+}
+.sr-sort-ascending:before {
+  content: "\e049";
+}
+.sr-sort:before {
+  content: "\e050";
+}
+.sr-shopping-cart:before {
+  content: "\e051";
+}
+.sr-zoom-out:before {
+  content: "\e052";
+}
+.sr-users-filled:before {
+  content: "\e053";
+}
+.sr-add-team-member:before {
+  content: "\e054";
+}
+.sr-admin-user:before {
+  content: "\e055";
+}
+.sr-alarm:before {
+  content: "\e056";
+}
+.sr-alarm-server:before {
+  content: "\e057";
+}
+.sr-alarm-state:before {
+  content: "\e058";
+}
+.sr-bookmark:before {
+  content: "\e059";
+}
+.sr-card-view:before {
+  content: "\e060";
+}
+.sr-comment:before {
+  content: "\e061";
+}
+.sr-color:before {
+  content: "\e062";
+}
+.sr-collapse-all:before {
+  content: "\e063";
+}
+.sr-clock:before {
+  content: "\e064";
+}
+.sr-details:before {
+  content: "\e065";
+}
+.sr-fit-to-screen:before {
+  content: "\e066";
+}
+.sr-expand-all:before {
+  content: "\e067";
+}
+.sr-eject:before {
+  content: "\e068";
+}
+.sr-hand:before {
+  content: "\e069";
+}
+.sr-in-alarm-suppressed:before {
+  content: "\e070";
+}
+.sr-in-alarm-unack:before {
+  content: "\e071";
+}
+.sr-jog-forward:before {
+  content: "\e073";
+}
+.sr-jog-reverse:before {
+  content: "\e074";
+}
+.sr-hide:before {
+  content: "\e075";
+}
+.sr-horizontal-gauge:before {
+  content: "\e076";
+}
+.sr-layers:before {
+  content: "\e077";
+}
+.sr-list-view:before {
+  content: "\e078";
+}
+.sr-flip-card:before {
+  content: "\e079";
+}
+.sr-in-alarm-ack:before {
+  content: "\e080";
+}
+.sr-in-alarm-ack-shelved:before {
+  content: "\e081";
+}
+.sr-in-alarm-ack-suppressed:before {
+  content: "\e082";
+}
+.sr-in-alarm-shelved:before {
+  content: "\e083";
+}
+.sr-pause:before {
+  content: "\e084";
+}
+.sr-password:before {
+  content: "\e085";
+}
+.sr-override:before {
+  content: "\e086";
+}
+.sr-normal-unack:before {
+  content: "\e087";
+}
+.sr-normal-suppressed:before {
+  content: "\e088";
+}
+.sr-normal-shelved:before {
+  content: "\e089";
+}
+.sr-normal-ack-suppressed:before {
+  content: "\e090";
+}
+.sr-normal-ack-shelved:before {
+  content: "\e091";
+}
+.sr-normal-ack:before {
+  content: "\e092";
+}
+.sr-no-attachments:before {
+  content: "\e093";
+}
+.sr-public:before {
+  content: "\e094";
+}
+.sr-properties:before {
+  content: "\e095";
+}
+.sr-vertical-meter:before {
+  content: "\e096";
+}
+.sr-activations:before {
+  content: "\c048";
+}
+.sr-hmi:before {
+  content: "\c049";
+}
+.sr-rehost:before {
+  content: "\c050";
+}
+.sr-add:before {
+  content: "\e097";
+}
+.sr-edit:before {
+  content: "\e098";
+}
+.sr-help-circle:before {
+  content: "\e009";
+}
+.sr-incident:before {
+  content: "\e099";
+}
+.sr-new:before {
+  content: "\e100";
+}
+.sr-project:before {
+  content: "\e101";
+}
+.sr-undo:before {
+  content: "\e102";
+}
+.sr-repair-quotes:before {
+  content: "\c051";
+}
+.sr-filters:before {
+  content: "\e103";
+}
+.sr-flag-filled:before {
+  content: "\e104";
+}
+.sr-reviews:before {
+  content: "\e105";
+}
+.sr-phone:before {
+  content: "\e106";
+}
+.sr-star:before {
+  content: "\e107";
+}
+.sr-star-filled:before {
+  content: "\e108";
+}

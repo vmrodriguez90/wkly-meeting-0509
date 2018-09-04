@@ -1,0 +1,71 @@
+.disable-scrolling {
+  overflow: hidden;
+}
+
+/* remove the X from the type=search input field as we're providing one*/
+
+.search-input-container input {
+  &[type=text] {
+    &::-ms-clear, &::-ms-reveal {
+      display: none;
+      width: 0;
+      height: 0;
+    }
+  }
+  &[type="search"] {
+    &::-webkit-search-decoration, &::-webkit-search-cancel-button, &::-webkit-search-results-button, &::-webkit-search-results-decoration {
+      display: none;
+    }
+  }
+}
+::-ms-clear {
+  display: none !important;
+}
+
+.ui-dialog {
+  z-index: 2000 !important;
+}
+
+.ui-autocomplete {
+  z-index: 5001 !important;
+}
+
+/* Make sure to change both of these, as IE only sees the second one */
+
+.ui-widget-overlay.custom-overlay {
+  opacity: .80 !important;
+  filter: Alpha(Opacity = 50) !important;
+  background: rgb(50, 50, 50) !important;
+  .close-modal {
+    float: right;
+    z-index: 99;
+    margin: 30px;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    i {
+      color: white;
+      font-size: 28px;
+    }
+  }
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $warm-gray-color;
+  font-weight: lighter;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: $warm-gray-color;
+  font-weight: lighter;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: $warm-gray-color;
+  font-weight: lighter;
+}
