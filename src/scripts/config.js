@@ -158,7 +158,7 @@ let config = {
 		{
 			name:'slide-8',
 			position: { top: -950, left: 1670 },
-			url: 'templates/marketing.html',
+			url: 'templates/updates_mkt.html',
 			content: `
 				<span class="big">Updates MARKETING</span>
 			`
