@@ -105,22 +105,29 @@ a {
 }
 
 .wrapper {
-	div.slides {
+	a.slides {
 		position: absolute;
+		display: block;
 		z-index: 9999;
 		background: $blue-color;
 		padding: 10px;
 		border: 1px solid $neutral-gray;
 		text-align: center;
 		width: 400px;
-		overflow-x: auto;
-		.slider-container {
-			@include flexbox();
-			@include flex-flow(column nowrap);
-			@include justify-content(space-betweeen);
+		.upside-down {
+			transform: rotate(180deg) translateY(3em);
+			position: relative;
+			top: 153px;
 		}
+
 		&.presentation {
 			width: 700px;
+		}
+		&.slide-4 {
+			transform: rotate(-90deg) translateY(2.5em);
+		}
+		&.slide-5, &.slide-6, &.slide-8 {
+			transform: rotate(90deg) translateX(50px);
 		}
 	}
 }
@@ -187,5 +194,161 @@ nav {
 @keyframes highlight {
 	to {
 		background: lightblue;
+	}
+}
+
+.presenter-face {
+	position: absolute;
+	top: calc(50% - 32px);
+	left: calc(50% - 32px);
+	width: 32px;
+	height: 32px;
+	z-index: 9999;
+	> img {
+		display: none;
+	}
+	&.butti {
+		> img.butti{
+			display: block;
+		}
+	}
+	&.victor {
+		> img.victor{
+			display: block;
+		}
+	}
+	&.agus {
+		> img.agus{
+			display: block;
+		}
+	}
+	&.cappi {
+		> img.cappi{
+			display: block;
+		}
+	}
+	&.julia {
+		> img.julia{
+			display: block;
+		}
+	}
+}
+
+body {
+	&.ctos {
+		background: $blue-color;
+		margin: 0;
+		padding: 20px 0;
+		.title {
+			@include flexbox();
+			@include flex-flow(row nowrap);
+			@include justify-content(center);
+			@include align-items(center);
+			@include font($font-bold, $bigger-font-size);
+		}
+		.ctos {
+			@include flexbox();
+			@include flex-flow(row nowrap);
+			@include justify-content(space-between);
+			@include align-items(center);
+			padding: 0 30px;
+			margin: 100px auto;
+			width: 800px;
+			.cto-guy {
+				@include flexbox();
+				@include flex-flow(column nowrap);
+				@include justify-content(center);
+				@include align-items(center);
+				width: 200px;
+				.cto-name, .cto-title {
+					text-align: center;
+				}
+
+				img {
+					width: 150px;
+					height: 150px;
+					border-radius: 100px;
+					border: 2px solid $white-color;
+					margin: 10px;
+					border: 1px solid $white-color
+				}
+			}
+
+		}
+	}
+	&.cheers, &.thanks, &.rocks, &.ex, &.social {
+		background: $yellow-color;
+		.back {
+			display: block;
+			width: 700px;
+			margin: 100px auto;
+			text-align: center;
+			.title {
+				@include font($font-bold, $bigger-font-size);
+				text-transform: uppercase;
+				font-size: 60px;
+				margin-bottom: 30px;
+			}
+			.title-image {
+				.emojis {
+					font-size: 100px;
+					margin: 50px 0;
+					display: block;
+					text-align: center;
+					letter-spacing: 20px;
+				}
+			}
+			.item {
+				font-size: 50px;
+				&.names {
+					font-size: 20px;
+					ul li {
+						margin: 15px 0;
+					}
+				}
+			}
+		}
+	}
+	&.thanks {
+		background: $blue-color;
+	}
+	&.rocks {
+		background: $red-color;
+		.back .item {
+			font-size: 30px;
+			margin: 20px 0;
+		}
+	}
+	&.ex {
+		.back {
+			@include flexbox();
+			@include flex-flow(column nowrap);
+
+		}
+		.title-image img {
+			width: 200px;
+			border-radius: 100px;
+			border: 3px solid $white-color;
+			margin-bottom: 10px;
+		}
+		.back p.item {
+			font-size: 30px;
+		}
+	}
+	&.social {
+		background: #f2d465;
+		.title-image {
+			p.item {
+				font-size: 20px;
+				margin-bottom: 10px;
+			}
+			img {
+				border-radius: 100px;
+				border: 3px solid $white-color;
+			}
+		}
+		.nolan {
+			width: 200px;
+		}
 	}
 }
