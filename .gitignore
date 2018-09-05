@@ -1,7 +1,6 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
 /tmp
 /out-tsc
 
@@ -49,7 +48,6 @@ Thumbs.db
 *.stackdump
 node_modules
 package-lock.json
-dist
 .vs
 autosuggest-component/dist-dev/
 autosuggest-component/dist-uat/
