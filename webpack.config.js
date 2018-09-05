@@ -46,7 +46,7 @@ module.exports = {
             loader: 'file-loader',
             options: {
               limit: 500000,
-              name: "./src/scss/assets/[name].[ext]",
+              name: "./[name].[ext]",
               emitFile : false
             },
           }
@@ -83,6 +83,12 @@ module.exports = {
 		  to: './templates',
 	  },
 	]),
+	  new CopyWebpackPlugin([
+		  {
+			  from: './src/scss/assets',
+			  to: './',
+		  },
+	  ]),
   ],
   performance: {
     maxEntrypointSize: 400000,
