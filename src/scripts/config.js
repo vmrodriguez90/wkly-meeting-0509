@@ -133,7 +133,7 @@ let config = {
 		{
 			name:'slide-3',
 			position: { top: 1540, left: 1600 },
-			url: 'templates/updates_ex.html',
+			url: 'templates/update_ex.html',
 			content: `
 					<span class="big">EX Updates</span>
 			`
@@ -158,7 +158,7 @@ let config = {
 		{
 			name:'slide-8',
 			position: { top: -950, left: 1670 },
-			url: 'templates/updates_mkt.html',
+			url: 'templates/update_mkt.html',
 			content: `
 				<span class="big">Updates MARKETING</span>
 			`

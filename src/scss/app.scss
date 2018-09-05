@@ -276,7 +276,7 @@ body {
 
 		}
 	}
-	&.cheers, &.thanks, &.rocks, &.ex, &.social, &.marketing {
+	&.cheers, &.thanks, &.rocks, &.ex, &.social, &.marketing, &.generales {
 		background: $yellow-color;
 		.back {
 			display: block;
@@ -319,7 +319,7 @@ body {
 			margin: 20px 0;
 		}
 	}
-	&.ex {
+	&.ex, &.generales {
 		.back {
 			@include flexbox();
 			@include flex-flow(column nowrap);
@@ -389,5 +389,54 @@ body {
 			}
 		}
 
+	}
+	&.generales {
+		background: $charcoal-color;
+		p.title {
+			color: $yellow-color;
+		}
+		.om {
+			width: 100%;
+			@include flexbox();
+			@include justify-content(center);
+			@include flex-flow(column nowrap);
+			text-align: center;
+			.title {
+				@include font($font-bold, $bigger-font-size);
+				text-transform: uppercase;
+				font-size: 60px;
+				margin-bottom: 30px;
+			}
+			img {
+				width: 600px;
+			}
+			.realidad, .expectativa {
+				display: none;
+				position: relative;
+				label {
+					position: absolute;
+					transform: rotate(-45deg);
+					font-size: 30px;
+					font-weight: bold;
+					top: 100px;
+					left: 40%;
+					color: $yellow-color;
+				}
+				span.arrow {
+					font-size: 30px;
+					font-weight: bold;
+					position: absolute;
+					transform: rotate(-45deg);
+					font-size: 30px;
+					font-weight: bold;
+					top: 100px;
+					left: 40%;
+					color: $yellow-color;
+				}
+			}
+			.show {
+				display: block;
+			}
+		}
 	}
 }

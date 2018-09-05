@@ -14,7 +14,7 @@ function init() {
 	for (let i=0; i<config.slides.length; i++) {
 		let element = config.slides[i];
 		let htmlItem = `
-				<a href="${element.url || ''}" class="slides ${element.name}" style="top: ${element.position.top}px; left: ${element.position.left}px">
+				<a href="${element.url || ''}" class="slides ${element.name}" style="top: ${element.position.top}px; left: ${element.position.left}px" target="_blank">
 					${element.content}
 				</a>`;
 		let htmlMenu = `<li><a href="#${element.name}">${i+1}</a></li>`;
@@ -69,7 +69,7 @@ function init() {
 				name: "slide-5",
 				callback: function() {
 					$('.presenter-face').removeClass('cappi');
-					$('.presenter-face').addClass('victor');
+					$('.presenter-face').addClass('julia');
 				}
 			})
 			// Small arc downwards
@@ -79,8 +79,8 @@ function init() {
 			.lineTo(1350, -850, {
 				name: "slide-6",
 				callback: function() {
-					$('.presenter-face').removeClass('victor');
-					$('.presenter-face').addClass('butti');
+					$('.presenter-face').removeClass('julia');
+					$('.presenter-face').addClass('victor');
 				}
 			})
 			// Arc and rotate back to the beginning.
@@ -118,5 +118,19 @@ function init() {
 	}, function() {
 		$(this).text("Show Path");
 	});
+
+	$('.expectativa').on('click', function(e) {
+		e.preventDefault();
+		e.stopPropagation();
+		$(this).removeClass('show');
+		$('.realidad').addClass('show');
+	});
+	$('.realidad').on('click', function(e) {
+		e.preventDefault();
+		e.stopPropagation();
+		$(this).removeClass('show');
+		$('.expectativa').addClass('show');
+	});
 }
+
 
