@@ -1,7 +1,7 @@
 body {
 	background-color: #2b2b2b;
 	width: 100%;
-	height: 1000px;
+	height: 1600px;
 	margin: 0;
 }
 
@@ -12,8 +12,8 @@ body {
 
 .back {
 	width: 100%;
-	height: 100%;
-	background-color: #02adea;
+	height: 120%;
+	background-color: #f1a899;
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;
@@ -54,15 +54,15 @@ body {
 }
 
 .agus {
-
+	width:20%;
 }
 
 .title-image {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding-top: 60px;
-	margin-bottom: 60px;
+	padding-top: 20px;
+	margin-bottom: 30px;
 }
 
 .title-double {
@@ -79,4 +79,21 @@ body {
 .title-double .title {
 	margin-bottom: 0;
 	margin-top: 0;
+}
+
+.photos-mayor {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	justify-content: center;
+	align-items: center;
+}
+
+.photo-mayor {
+	width: auto;
+	height: 453px;
+	display: block;
+	max-width: 82%;
+	max-height: 604px;
+	margin: 20px;
 }
