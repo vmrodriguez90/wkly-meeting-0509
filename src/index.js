@@ -10,10 +10,13 @@ $(document).ready(init);
 
 function init() {
 	let wrapper = $('.wrapper');
+	let menu = $('ul.menu');
 	for (let i=0; i<config.slides.length; i++) {
 		let element = config.slides[i];
-		let html = `<div class="slides ${element.name}" style="top: ${element.position.top}px; left: ${element.position.left}px">${element.content}</div>`;
-		wrapper.append(html);
+		let htmlItem = `<div class="slides ${element.name}" style="top: ${element.position.top}px; left: ${element.position.left}px">${element.content}</div>`;
+		let htmlMenu = `<li><a href="#${element.name}">${i+1}</a></li>`;
+		wrapper.append(htmlItem);
+		menu.append(htmlMenu);
 	}
 
 	/* ========== DRAWING THE PATH AND INITIATING THE PLUGIN ============= */
